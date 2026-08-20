@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+taskbar_layout.json
+
+# Builds and backups
+stable_build/
+release_build/
+safe_restore_v2/
+safe_restore_v3/
+*backup*.py
+*stable*.py
+*safe_backup*.py
+scratch/
+.agents/
