@@ -1,0 +1,22 @@
+# Ignore all Python source files so Vercel doesn't detect this as a Python/FastAPI project
+*.py
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore other non-web files
+*.vbs
+*.log
+requirements.txt
+install.log
+startup.log
+taskbar_layout.json
+
+# Ignore backup directories
+safe_restore_v2/
+safe_restore_v3/
+stable_build/
+release_build/
+scratch/
+assets/
